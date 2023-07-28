@@ -11,6 +11,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AttendanceVC" customModule="PointEmployeeManagement" customModuleProvider="target">
             <connections>
+                <outlet property="btnPresence" destination="5c1-D2-e7K" id="8uL-i6-dJs"/>
+                <outlet property="mapLocation" destination="0Fh-wE-DnF" id="H7a-IN-xq0"/>
+                <outlet property="navigationBar" destination="YnK-n6-DuY" id="ns9-5Q-Dr1"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -30,12 +33,23 @@
                         <constraint firstAttribute="height" constant="60" id="QYh-oy-IQ3"/>
                     </constraints>
                 </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5c1-D2-e7K" customClass="RoundedCornerButton" customModule="PointEmployeeManagement" customModuleProvider="target">
+                    <rect key="frame" x="96.666666666666686" y="728" width="200" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="7cg-hp-jO6"/>
+                        <constraint firstAttribute="width" constant="200" id="n6G-1b-sph"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="0Fh-wE-DnF" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="1sw-qO-pD0"/>
+                <constraint firstItem="5c1-D2-e7K" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="77Q-ZN-lmO"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="YnK-n6-DuY" secondAttribute="trailing" id="9s6-AF-gT4"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="5c1-D2-e7K" secondAttribute="bottom" constant="40" id="Mu2-vi-MFm"/>
                 <constraint firstItem="YnK-n6-DuY" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="WTv-Ss-VmJ"/>
                 <constraint firstItem="0Fh-wE-DnF" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="YVE-wc-QSi"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="0Fh-wE-DnF" secondAttribute="bottom" id="hsK-Te-HN2"/>

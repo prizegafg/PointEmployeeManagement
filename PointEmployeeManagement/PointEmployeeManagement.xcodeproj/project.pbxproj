@@ -33,7 +33,6 @@
 		CD8B7C202A71874000666AE5 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B7C1F2A71874000666AE5 /* LoginRouter.swift */; };
 		CD8B7C222A71874900666AE5 /* LoginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B7C212A71874900666AE5 /* LoginProtocol.swift */; };
 		CD8B7C242A718AE600666AE5 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B7C232A718AE600666AE5 /* NavigationBar.swift */; };
-		CD8B7C262A718BF300666AE5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD8B7C252A718BF200666AE5 /* GoogleService-Info.plist */; };
 		CD8B7C282A71A42600666AE5 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B7C272A71A42600666AE5 /* Alert.swift */; };
 		CD8B7C2A2A71A8E800666AE5 /* ErrorHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B7C292A71A8E800666AE5 /* ErrorHandle.swift */; };
 		CD8B7C2D2A71A95E00666AE5 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B7C2B2A71A95E00666AE5 /* RegisterVC.swift */; };
@@ -75,6 +74,7 @@
 		CD8B7C782A74309400666AE5 /* UpdateDataEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B7C772A74309400666AE5 /* UpdateDataEntity.swift */; };
 		CD8B7C7A2A74309E00666AE5 /* UpdateDataRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B7C792A74309E00666AE5 /* UpdateDataRouter.swift */; };
 		CD8B7C7C2A7430AE00666AE5 /* UpdateDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B7C7B2A7430AE00666AE5 /* UpdateDataProtocol.swift */; };
+		CD8B7C7E2A7438B700666AE5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD8B7C7D2A7438B600666AE5 /* GoogleService-Info.plist */; };
 		EA5DCA13872693567B9F0300 /* Pods_PointEmployeeManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21998DF06097DDF319C1E007 /* Pods_PointEmployeeManagement.framework */; };
 /* End PBXBuildFile section */
 
@@ -131,7 +131,6 @@
 		CD8B7C1F2A71874000666AE5 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
 		CD8B7C212A71874900666AE5 /* LoginProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocol.swift; sourceTree = "<group>"; };
 		CD8B7C232A718AE600666AE5 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
-		CD8B7C252A718BF200666AE5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CD8B7C272A71A42600666AE5 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		CD8B7C292A71A8E800666AE5 /* ErrorHandle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandle.swift; sourceTree = "<group>"; };
 		CD8B7C2B2A71A95E00666AE5 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
@@ -173,6 +172,7 @@
 		CD8B7C772A74309400666AE5 /* UpdateDataEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDataEntity.swift; sourceTree = "<group>"; };
 		CD8B7C792A74309E00666AE5 /* UpdateDataRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDataRouter.swift; sourceTree = "<group>"; };
 		CD8B7C7B2A7430AE00666AE5 /* UpdateDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDataProtocol.swift; sourceTree = "<group>"; };
+		CD8B7C7D2A7438B600666AE5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E2DBF478354B2EAFC32153FF /* Pods-PointEmployeeManagement-PointEmployeeManagementUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PointEmployeeManagement-PointEmployeeManagementUITests.release.xcconfig"; path = "Target Support Files/Pods-PointEmployeeManagement-PointEmployeeManagementUITests/Pods-PointEmployeeManagement-PointEmployeeManagementUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FF3A3AF843C721785B739824 /* Pods-PointEmployeeManagementTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PointEmployeeManagementTests.debug.xcconfig"; path = "Target Support Files/Pods-PointEmployeeManagementTests/Pods-PointEmployeeManagementTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -281,7 +281,7 @@
 		CD8B7BFA2A716EEF00666AE5 /* SupportingFile */ = {
 			isa = PBXGroup;
 			children = (
-				CD8B7C252A718BF200666AE5 /* GoogleService-Info.plist */,
+				CD8B7C7D2A7438B600666AE5 /* GoogleService-Info.plist */,
 				CD8B7BCA2A716EEA00666AE5 /* AppDelegate.swift */,
 				CD8B7BCC2A716EEA00666AE5 /* SceneDelegate.swift */,
 				CD8B7BCE2A716EEA00666AE5 /* ViewController.swift */,
@@ -573,7 +573,7 @@
 				CD8B7C722A74307000666AE5 /* UpdateDataVC.xib in Resources */,
 				CD8B7C522A72631200666AE5 /* SuccessRegisterVC.xib in Resources */,
 				CD8B7BD22A716EEA00666AE5 /* Main.storyboard in Resources */,
-				CD8B7C262A718BF300666AE5 /* GoogleService-Info.plist in Resources */,
+				CD8B7C7E2A7438B700666AE5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
