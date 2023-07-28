@@ -1,0 +1,6 @@
+framework module Pods_PointEmployeeManagement_PointEmployeeManagementUITests {
+  umbrella header "Pods-PointEmployeeManagement-PointEmployeeManagementUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

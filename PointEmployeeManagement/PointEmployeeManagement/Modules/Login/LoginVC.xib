@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginVC" customModule="PointEmployeeManagement" customModuleProvider="target">
+            <connections>
+                <outlet property="btnForgotPassword" destination="WTo-nV-4sm" id="NHT-WT-cVr"/>
+                <outlet property="btnLogin" destination="1KY-KE-TSY" id="2bt-Dg-sKJ"/>
+                <outlet property="btnRegister" destination="xlA-Fq-keP" id="7nI-eh-i3W"/>
+                <outlet property="lblOtherOption" destination="g6b-P4-xAU" id="P31-eF-CvU"/>
+                <outlet property="txtEmail" destination="b4K-uu-c8Q" id="Zfg-DF-TDu"/>
+                <outlet property="txtPassword" destination="dgS-MJ-gTK" id="M6d-W7-eCn"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6zg-9V-NUd" customClass="NavigationBar" customModule="PointEmployeeManagement" customModuleProvider="target">
+                    <rect key="frame" x="30" y="59" width="333" height="60"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="id2-3M-Cw7"/>
+                    </constraints>
+                </view>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b4K-uu-c8Q">
+                    <rect key="frame" x="30" y="261" width="333" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Zc4-Fb-aSU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dgS-MJ-gTK">
+                    <rect key="frame" x="30" y="331" width="333" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="LhM-iB-QnJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WTo-nV-4sm">
+                    <rect key="frame" x="200" y="376" width="163" height="35"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1KY-KE-TSY" customClass="RoundedCornerButton" customModule="PointEmployeeManagement" customModuleProvider="target">
+                    <rect key="frame" x="30" y="471" width="333" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="WO7-Bg-bY1"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xlA-Fq-keP" customClass="RoundedCornerButton" customModule="PointEmployeeManagement" customModuleProvider="target">
+                    <rect key="frame" x="30" y="572" width="333" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="z2c-q8-5wJ"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6b-P4-xAU">
+                    <rect key="frame" x="175.66666666666666" y="531" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="dgS-MJ-gTK" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="735-JO-Fg2"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="6zg-9V-NUd" secondAttribute="trailing" constant="30" id="7uP-Kf-4bk"/>
+                <constraint firstItem="b4K-uu-c8Q" firstAttribute="top" secondItem="6zg-9V-NUd" secondAttribute="bottom" constant="142" id="9Ct-TL-x46"/>
+                <constraint firstItem="g6b-P4-xAU" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="Dj9-2F-Du4"/>
+                <constraint firstItem="WTo-nV-4sm" firstAttribute="top" secondItem="dgS-MJ-gTK" secondAttribute="bottom" constant="5" id="Ft7-0Y-GV1"/>
+                <constraint firstItem="b4K-uu-c8Q" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="LaA-h3-bSq"/>
+                <constraint firstItem="WTo-nV-4sm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="200" id="Psq-a3-Oqr"/>
+                <constraint firstItem="xlA-Fq-keP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="S7K-Yc-utl"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="1KY-KE-TSY" secondAttribute="trailing" constant="30" id="Xba-w8-wWa"/>
+                <constraint firstItem="dgS-MJ-gTK" firstAttribute="top" secondItem="b4K-uu-c8Q" secondAttribute="bottom" constant="30" id="a8W-pt-bdM"/>
+                <constraint firstItem="xlA-Fq-keP" firstAttribute="top" secondItem="g6b-P4-xAU" secondAttribute="bottom" constant="20" id="dV3-HD-ufw"/>
+                <constraint firstItem="6zg-9V-NUd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="g3N-uh-w96"/>
+                <constraint firstItem="1KY-KE-TSY" firstAttribute="top" secondItem="WTo-nV-4sm" secondAttribute="bottom" constant="60" id="gQZ-qa-nxM"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="dgS-MJ-gTK" secondAttribute="trailing" constant="30" id="gQh-eR-35A"/>
+                <constraint firstItem="g6b-P4-xAU" firstAttribute="top" secondItem="1KY-KE-TSY" secondAttribute="bottom" constant="20" id="hZG-n9-Wf6"/>
+                <constraint firstItem="6zg-9V-NUd" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="iIz-he-dRq"/>
+                <constraint firstItem="1KY-KE-TSY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="pnP-iT-15c"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="WTo-nV-4sm" secondAttribute="trailing" constant="30" id="t0H-aw-jpo"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="xlA-Fq-keP" secondAttribute="trailing" constant="30" id="v49-CW-aoh"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="b4K-uu-c8Q" secondAttribute="trailing" constant="30" id="wCu-je-zZS"/>
+            </constraints>
+            <point key="canvasLocation" x="21" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
